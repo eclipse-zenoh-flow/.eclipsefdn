@@ -18,8 +18,6 @@ orgs.newOrg('eclipse-zenoh-flow') {
       delete_branch_on_merge: false,
       description: "zenoh-flow aims at providing a zenoh-based data-flow programming framework for computations that span from the cloud to the device.",
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "autonomous-vehicles",
         "data-science",
@@ -40,8 +38,6 @@ orgs.newOrg('eclipse-zenoh-flow') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "Zenoh Flow Python API",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
