@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-zenoh-flow') {
+orgs.newOrg('iot.zenoh.zenoh-flow', 'eclipse-zenoh-flow') {
   settings+: {
     description: "",
     name: "Zenoh-Flow Project",
